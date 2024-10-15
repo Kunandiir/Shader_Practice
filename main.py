@@ -5,6 +5,7 @@ import glfw
 from OpenGL.GL import *
 
 
+
 def compileShader(shaderType, shader):
     id = glCreateShader(shaderType)
     glShaderSource(id, shader)
