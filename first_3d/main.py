@@ -80,8 +80,8 @@ def main():
     glVertexAttribPointer(0, 2, GL_FLOAT, GL_FALSE, 2 * 4, None)
     glEnableVertexAttribArray(0)
 
-    vertex = open("tests/vertex.shader").read()
-    fragment = open("tests/fragment.shader").read()
+    vertex = open("first_3d/vertex.shader").read()
+    fragment = open("first_3d/fragment.shader").read()
 
     shader = createShader(vertex, fragment)
 
