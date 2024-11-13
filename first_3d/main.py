@@ -72,7 +72,7 @@ def main():
     glBindVertexArray(VAO)
 
 
-    VBO = glGenBuffers(1)    
+    VBO = glGenBuffers(1)
     glBindBuffer(GL_ARRAY_BUFFER, VBO)
     glBufferData(GL_ARRAY_BUFFER, converted_vetecies, GL_STATIC_DRAW)
 
